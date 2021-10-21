@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31717.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSHARP10-Features", "CSHARP10-Features\CSHARP10-Features.csproj", "{2E7F5B39-F0BA-423A-94C1-F107308008D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C38898DD-9807-453A-8A9C-7AB105B5742B}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E7F5B39-F0BA-423A-94C1-F107308008D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E7F5B39-F0BA-423A-94C1-F107308008D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E7F5B39-F0BA-423A-94C1-F107308008D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E7F5B39-F0BA-423A-94C1-F107308008D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B00539DE-2D5F-49EB-BC56-856F8E537838}
+	EndGlobalSection
+EndGlobal
