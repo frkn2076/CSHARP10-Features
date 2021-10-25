@@ -9,14 +9,14 @@ class Current
         System.Console.WriteLine(actor);
     }
 
-    internal static void RecordStruct()
+    void RecordStruct()
     {
         var actor = new PersonCurrentStruct("Tom", "Hanks");
         actor.Surname = "Hiddlestone";
         System.Console.WriteLine(actor);
     }
 
-    internal static void RecordStructReadonly()
+    void RecordStructReadonly()
     {
         var actorReadonly = new PersonCurrentStructReadonly("Tom", "Hanks");
         // Compile Error for the below line since it is readonly
@@ -24,6 +24,6 @@ class Current
     }
 }
 
-public record PersonCurrent(string Name, string Surname); // reference-type
-public record struct PersonCurrentStruct(string Name, string Surname); // value-type
-public readonly record struct PersonCurrentStructReadonly(string Name, string Surname); // value-type
+record PersonCurrent(string Name, string Surname); // reference-type
+record struct PersonCurrentStruct(string Name, string Surname); // value-type
+readonly record struct PersonCurrentStructReadonly(string Name, string Surname); // value-type

@@ -3,7 +3,7 @@ class Previous
 {
     void Record()
     {
-        var actor = new PersonCurrent("Tom", "Hanks");
+        var actor = new PersonPrevious("Tom", "Hanks");
         // Compile Error for the below line since it is immutable
         //actor.Surname = "Hiddlestone";
         System.Console.WriteLine(actor);
