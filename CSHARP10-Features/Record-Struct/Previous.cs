@@ -12,4 +12,4 @@ class Previous
     }
 }
 
-public record PersonPrevious(string Name, string Surname); // reference-type
+record PersonPrevious(string Name, string Surname); // reference-type
