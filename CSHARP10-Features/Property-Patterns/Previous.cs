@@ -1,7 +1,7 @@
 ﻿namespace CSHARP10_Features.Property_Patterns;
 class Previous
 {
-    internal static void Sample()
+    void Sample()
     {
         var pet = new Pet("Daisy", "Magnus");
         var result = pet switch

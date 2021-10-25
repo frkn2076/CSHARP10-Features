@@ -2,6 +2,6 @@
 {
     class Previous
     {
-        internal static void Print() => System.Console.WriteLine("C# 10.0");
+        void Print() => System.Console.WriteLine("C# 10.0");
     }
 }

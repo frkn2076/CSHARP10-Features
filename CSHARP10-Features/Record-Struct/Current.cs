@@ -3,7 +3,7 @@
 namespace CSHARP10_Features.Record_Struct;
 class Current
 {
-    internal static void Record()
+    void Record()
     {
         var actor = new PersonCurrent("Tom", "Hanks");
         // Compile Error for the below line since it is immutable
