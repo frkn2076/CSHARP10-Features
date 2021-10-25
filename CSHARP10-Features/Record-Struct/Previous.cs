@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace CSHARP10_Features.Record_Struct;
+﻿namespace CSHARP10_Features.Record_Struct;
 class Previous
 {
     void Record()
@@ -8,7 +6,7 @@ class Previous
         var actor = new PersonCurrent("Tom", "Hanks");
         // Compile Error for the below line since it is immutable
         //actor.Surname = "Hiddlestone";
-        Console.WriteLine(actor);
+        System.Console.WriteLine(actor);
     }
 }
 
