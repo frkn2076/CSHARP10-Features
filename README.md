@@ -6,3 +6,4 @@
 * Constant Interpolated Strings https://github.com/frkn2076/CSHARP10-Features/blob/main/CSHARP10-Features/Constant-Interpolated-Strings/Current.cs
 * Property Patterns https://github.com/frkn2076/CSHARP10-Features/blob/main/CSHARP10-Features/Property-Patterns/Current.cs
 * Record Struct https://github.com/frkn2076/CSHARP10-Features/blob/main/CSHARP10-Features/Record-Struct/Current.cs
+* Null Check https://github.com/frkn2076/CSHARP10-Features/blob/main/CSHARP10-Features/Null-Check/Current.cs
